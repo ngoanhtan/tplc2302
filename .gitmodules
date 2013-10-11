@@ -1,0 +1,6 @@
+[submodule "jsoncpp"]
+	path = jsoncpp
+	url = https://github.com/ngoanhtan/jsoncpp
+[submodule "Lib/jsoncpp"]
+	path = Lib/jsoncpp
+	url = https://github.com/ngoanhtan/jsoncpp
