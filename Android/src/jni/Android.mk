@@ -29,8 +29,6 @@ LOCAL_MODULE := offlineitems
 LOCAL_ARM_MODE := arm
 LOCAL_ARM_NEON := false
 
-LOCAL_LDFLAGS := -Wl,--fix-cortex-a8
-LOCAL_LDLIBS := -lGLESv2 -ldl -llog -lgcc -lm -lc -lstdc++
-LOCAL_WHOLE_STATIC_LIBRARIES := lib1 lib2 jsoncpp
+LOCAL_STATIC_LIBRARIES := lib1 lib2 jsoncpp
 include $(BUILD_SHARED_LIBRARY)
 
