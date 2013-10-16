@@ -9,6 +9,7 @@ set CUR_DIR=%~dp0
 
 set CYGWIN_BIN=d:\DevTools\cygwin\bin
 set NDK_BUILD=d:\DevTools\android-ndk-r9\ndk-build
+REM set NDK_BUILD=d:\DevTools\ndk\ndk-build
 set CYGWIN=nodosfilewarning
 
 REM set NDK_CCACHE=android/ccache
